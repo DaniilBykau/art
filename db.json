@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "test1",
+    "price": "123",
+    "likes": "1231231231",
+    "image": "assets/images/img1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "MacBook",
+    "price": "123",
+    "likes": "312",
+    "image": "assets/images/img2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "123",
+    "price": "123",
+    "likes": "12123",
+    "image": "assets/images/img.jpg"
+  },
+  {
+    "id": 4,
+    "title": "test1",
+    "price": "123",
+    "likes": "1231231231",
+    "image": "assets/images/img4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "MacBook",
+    "price": "123",
+    "likes": "312",
+    "image": "assets/images/img5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "123",
+    "price": "123",
+    "likes": "12123",
+    "image": "assets/images/img6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "test1",
+    "price": "123",
+    "likes": "1231231231",
+    "image": "assets/images/img7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "MacBook",
+    "price": "123",
+    "likes": "312",
+    "image": "assets/images/img3.jpg"
+  }
+]
