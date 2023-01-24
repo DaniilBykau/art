@@ -8,3 +8,24 @@
 
   <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
 </mat-table>
+<mat-table [dataSource]="images">
+
+  <ng-container matColumnDef="image">
+    <mat-cell *matCellDef="let item">
+      <img [src]="item.image" width="200" height="200" />
+    </mat-cell>
+  </ng-container>
+
+  <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+</mat-table>
+<mat-table [dataSource]="images">
+
+  <ng-container matColumnDef="image">
+    <mat-cell *matCellDef="let item">
+      <img [src]="item.image" width="200" height="200" />
+    </mat-cell>
+  </ng-container>
+
+  <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+</mat-table>
+
