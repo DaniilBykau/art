@@ -1,0 +1,27 @@
+.image-cell {
+  border-bottom-width: 0px;
+  margin: 4%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+  width: 80%;
+}
+
+.resized-img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+}
+

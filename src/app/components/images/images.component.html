@@ -1,31 +1,47 @@
-<mat-table [dataSource]="images">
+<div class="row">
+  <div class="column">
+    <mat-table [dataSource]="images">
+      <ng-container matColumnDef="image">
+        <mat-cell *matCellDef="let item" class = image-cell>
+          <img [src]="item.image" class = "resized-img" />
+        </mat-cell>
+      </ng-container>
+      <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
 
-  <ng-container matColumnDef="image">
-    <mat-cell *matCellDef="let item">
-      <img [src]="item.image" width="200" height="200" />
-    </mat-cell>
-  </ng-container>
+  <div class="column">
+    <mat-table [dataSource]="images">
+      <ng-container matColumnDef="image">
+        <mat-cell *matCellDef="let item" class = image-cell>
+          <img [src]="item.image" class = "resized-img" />
+        </mat-cell>
+      </ng-container>
+      <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
 
-  <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
-</mat-table>
-<mat-table [dataSource]="images">
+  <div class="column">
+    <mat-table [dataSource]="images">
+      <ng-container matColumnDef="image">
+        <mat-cell *matCellDef="let item" class = image-cell>
+          <img [src]="item.image" class = "resized-img" />
+        </mat-cell>
+      </ng-container>
+      <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
 
-  <ng-container matColumnDef="image">
-    <mat-cell *matCellDef="let item">
-      <img [src]="item.image" width="200" height="200" />
-    </mat-cell>
-  </ng-container>
+  <div class="column">
+    <mat-table [dataSource]="images">
+      <ng-container matColumnDef="image">
+        <mat-cell *matCellDef="let item" class = image-cell>
+          <img [src]="item.image" class = "resized-img" />
+        </mat-cell>
+      </ng-container>
+      <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+</div>
 
-  <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
-</mat-table>
-<mat-table [dataSource]="images">
-
-  <ng-container matColumnDef="image">
-    <mat-cell *matCellDef="let item">
-      <img [src]="item.image" width="200" height="200" />
-    </mat-cell>
-  </ng-container>
-
-  <mat-row *matRowDef="let item; columns: displayedColumns;"></mat-row>
-</mat-table>
 
